@@ -5,6 +5,15 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 li {
     list-style: none;
+}
+
+label {
+    cursor: unset;
 }

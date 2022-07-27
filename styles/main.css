@@ -1,4 +1,4 @@
-main {
+article {
     height: 77.5vh;
 
     margin: 0 1em;
@@ -38,12 +38,12 @@ main {
     padding: 0.5em 0;
 }
 
-.friend-profile-thumbnail > img {
+.friend-profile-thumbnail img {
     height: 4.5em;
     border-radius: 1.7em;
 }
 
-.friend-profile-thumbnail > label {
+.friend-profile-thumbnail label {
     font-size: 1.3em;
 
     padding-left: 1em;
