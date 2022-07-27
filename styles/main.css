@@ -1,0 +1,50 @@
+article {
+    height: 77.5vh;
+
+    margin: 0 1em;
+}
+
+#my-profile-thumbnail {
+    padding-bottom: 1em;
+
+    border-bottom: 1px solid #888
+}
+
+#my-profile-thumbnail img {
+    height: 5em;
+    border-radius: 2em;
+}
+
+#my-profile-thumbnail label {
+    padding-left: 1em;
+
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#friend-profile-thumbnails {
+    padding: 1.5em 0.75em; 
+}
+
+#fold-unfold-bar label {
+    color: #888;
+}
+
+#fold-unfold-bar img {
+    height: 0.65em;
+}
+
+.friend-profile-thumbnail {
+    padding: 0.5em 0;
+}
+
+.friend-profile-thumbnail img {
+    height: 4.5em;
+    border-radius: 1.7em;
+}
+
+.friend-profile-thumbnail label {
+    font-size: 1.3em;
+
+    padding-left: 1em;
+}

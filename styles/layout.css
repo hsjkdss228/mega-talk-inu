@@ -1,0 +1,63 @@
+html {
+    height: 100vh;
+}
+
+main {
+    display: grid;
+
+    min-height: 100vh;
+}
+
+#limit-screen-size {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;;
+}
+
+#status-bar {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#header-bar {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fold-unfold-bar {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+#my-profile-thumbnail {
+    display: flex;
+
+    align-items: center;
+}
+
+#friend-profile-thumbnails {
+    display: flex;
+
+    flex-direction: column;
+}
+
+.friend-profile-thumbnail {
+    display: flex;
+
+    align-items: center;
+}
+
+#below-menu-bar {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+}

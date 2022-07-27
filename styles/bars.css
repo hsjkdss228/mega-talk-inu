@@ -1,0 +1,40 @@
+#status-bar {
+    height: 5vh;
+
+    padding: 0 2.5em;
+}
+
+#status-bar time {
+    font-weight: bold;
+}
+
+#status-bar img {
+    height: 1em;
+}
+
+#header-bar {
+    height: 7.5vh;
+
+    padding: 0 1.5em;
+}
+
+header > label {
+    font-size: 2em;
+}
+
+header img {
+    height: 2em;
+
+    padding-left: 1em;
+}
+
+#below-menu-bar {
+    height: 75px;
+
+    border-top: 1px solid #888;
+    background-color: rgb(237, 237, 237);
+}
+
+#below-menu-bar img {
+    height: 2em;
+}
