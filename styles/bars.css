@@ -1,0 +1,25 @@
+#status-bar {
+    padding: 1em 2.5em 0 2.5em;
+}
+
+#status-bar time {
+    font-weight: bold;
+}
+
+#status-bar img {
+    height: 1em;
+}
+
+#header-bar {
+    padding: 1em 1.5em 0 1.5em;
+}
+
+header > label {
+    font-size: 2em;
+}
+
+header img {
+    height: 2em;
+
+    padding-left: 1em;
+}

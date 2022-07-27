@@ -1,0 +1,43 @@
+body {
+    display: grid;
+
+    grid-template-areas:
+        "phone-status"
+        "header"
+        "main"
+        "main"
+        "main"
+        "main"
+        "main"
+        "main"
+        "main"
+        "main"
+        "main"
+        "main"
+        "below-menu"
+        "below-menu";
+}
+
+#status-bar {
+    grid-area: "phone-status";
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+header {
+    grid-area: "header";
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+main {
+    grid-area: "main";
+}
+
+#below-menu {
+    grid-area: "below-menu";
+}

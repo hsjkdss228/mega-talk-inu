@@ -3,17 +3,20 @@
     <head>
         <meta charset="UTF-8" />
         <title>MegaTalk</title>
+        <link rel="stylesheet" href="styles/global.css" /> 
+        <link rel="stylesheet" href="styles/layout.css" />
+        <link rel="stylesheet" href="styles/bars.css" />
     </head>
     <body>
-        <div>
-            <time>09:00</time>
+        <div id="status-bar">
+            <time>44:44</time>
             <div>
                 <img src="data/images/cellular.png" alt="통신상태 아이콘" />
                 <img src="data/images/wifi.png" alt="와이파이 아이콘" />
                 <img src="data/images/battery.png" alt="잔여 배터리 아이콘" />
             </div>
         </div>
-        <header>
+        <header id="header-bar">
             <label>친구</label>
             <nav>
                 <img src="data/images/search.png" alt="검색 아이콘" />
@@ -51,7 +54,7 @@
                 </ul>
             </section>
         </main>
-        <nav>
+        <nav id="below-menu">
             <img src="data/images/user-fill.png" alt="친구목록 아이콘" />
             <img src="data/images/chat-blank.png" alt="채팅 아이콘" />
             <img src="data/images/view-blank.png" alt="뷰 아이콘" />
