@@ -49,10 +49,18 @@ main {
     flex-direction: column;
 }
 
-.friend-profile-thumbnail {
+.friend-profile-thumbnail, .chatting-list-thumbnail {
     display: flex;
 
     align-items: center;
+}
+
+.chatting-thumbnail {
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
 }
 
 #below-menu-bar {

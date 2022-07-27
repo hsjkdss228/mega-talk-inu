@@ -1,0 +1,52 @@
+article {
+    height: 77.5vh;
+
+    margin: 0 1em;
+}
+
+#chatting-list-thumbnails {
+    padding: 0 0.75em 1.5em 0.75em;
+}
+
+.chatting-list-thumbnail {
+    margin: 1.25em 0;
+}
+
+.chatting-list-thumbnail:first-child {
+    margin-top: 0;
+}
+
+.chatting-list-thumbnail img {
+    height: 4.5em;
+    border-radius: 1.7em;
+}
+
+.chatting-thumbnail {
+    padding-left: 0.9em;
+    padding-right: 2em;
+
+    height: 6em;
+    width: 66vw;
+}
+
+.chatting-thumbnail label {
+    font-size: 1.5em;
+}
+
+.chatting-thumbnail p {
+    font-size: 1.2em;
+    color: #888;
+
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatting-list-thumbnail time {
+    font-size: 1em;
+    color: #888;
+
+    width: 13vw;
+}

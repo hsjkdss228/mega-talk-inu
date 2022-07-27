@@ -16,10 +16,10 @@ article {
 }
 
 #my-profile-thumbnail label {
-    padding-left: 1em;
-
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 1.75em;
+
+    padding-left: 0.8em;
 }
 
 #friend-profile-thumbnails {
@@ -27,6 +27,8 @@ article {
 }
 
 #fold-unfold-bar label {
+    font-size: 1.2em;
+
     color: #888;
 }
 
@@ -35,7 +37,7 @@ article {
 }
 
 .friend-profile-thumbnail {
-    padding: 0.5em 0;
+    margin: 1.25em 0;
 }
 
 .friend-profile-thumbnail img {
@@ -44,7 +46,7 @@ article {
 }
 
 .friend-profile-thumbnail label {
-    font-size: 1.3em;
+    font-size: 1.5em;
 
-    padding-left: 1em;
+    padding-left: 0.9em;
 }
