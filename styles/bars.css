@@ -1,5 +1,7 @@
 #status-bar {
-    padding: 1em 2.5em 0 2.5em;
+    height: 5vh;
+
+    padding: 0 2.5em;
 }
 
 #status-bar time {
@@ -11,7 +13,9 @@
 }
 
 #header-bar {
-    padding: 1em 1.5em 0 1.5em;
+    height: 7.5vh;
+
+    padding: 0 1.5em;
 }
 
 header > label {
@@ -22,4 +26,15 @@ header img {
     height: 2em;
 
     padding-left: 1em;
+}
+
+#below-menu-bar {
+    height: 75px;
+
+    border-top: 1px solid #888;
+    background-color: rgb(237, 237, 237);
+}
+
+#below-menu-bar img {
+    height: 2em;
 }
