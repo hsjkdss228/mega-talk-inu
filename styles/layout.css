@@ -69,3 +69,15 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
+#input-form-bar {
+    display: flex;
+
+    align-items: center;
+}
+
+#input-form-bar form {
+    display: flex;
+
+    align-items: center;
+}
