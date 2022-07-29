@@ -18,14 +18,16 @@
     padding: 0 1.5em;
 }
 
-header > label {
+#header-bar > label {
     font-size: 2em;
 }
 
-header img {
-    height: 2em;
-
+#header-bar .utility-icon {
     padding-left: 1em;
+}
+
+#header-bar img {
+    height: 2em;
 }
 
 #below-menu-bar {
@@ -37,4 +39,49 @@ header img {
 
 #below-menu-bar img {
     height: 2em;
+}
+
+#input-form-bar {
+    height: 75px;
+
+    background-color: white;
+}
+
+#input-form-bar form {
+    width: 85vw;
+
+    padding: 0.5em;
+    margin-left: 1.5em;
+
+    border: 1px solid #888;
+    border-radius: 1em;
+}
+
+#input-form-bar input {
+    height: 2.5em;
+    width: 68vw;
+
+    border-style: none;
+}
+
+#input-form-bar img, #input-form-bar button {
+    height: 2em;
+    width: 2em;
+
+    border: none;
+    background-color: white;
+
+    margin-left: 1em;
+
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: contain;
+}
+
+#emoji-button {
+    background-image: url(../data/images/emoji.png);
+}
+
+#submit-button {
+    background-image: url(../data/images/enter.png);
 }

@@ -69,3 +69,30 @@ main {
     justify-content: space-around;
     align-items: center;
 }
+
+#input-form-bar {
+    display: flex;
+
+    align-items: center;
+}
+
+#input-form-bar form {
+    display: flex;
+
+    align-items: center;
+}
+
+#chattings li {
+    display: grid;
+
+    grid-template-columns: 4.25em auto;
+    column-gap: 0.5em;
+}
+
+#chattings img {
+    justify-self: right;
+}
+
+#chattings time {
+    align-self: flex-end;
+}
