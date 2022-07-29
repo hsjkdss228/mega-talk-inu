@@ -81,3 +81,18 @@ main {
 
     align-items: center;
 }
+
+#chattings li {
+    display: grid;
+
+    grid-template-columns: 4.25em auto;
+    column-gap: 0.5em;
+}
+
+#chattings img {
+    justify-self: right;
+}
+
+#chattings time {
+    align-self: flex-end;
+}

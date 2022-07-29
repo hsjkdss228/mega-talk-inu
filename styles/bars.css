@@ -22,10 +22,12 @@
     font-size: 2em;
 }
 
+#header-bar .utility-icon {
+    padding-left: 1em;
+}
+
 #header-bar img {
     height: 2em;
-
-    padding-left: 1em;
 }
 
 #below-menu-bar {

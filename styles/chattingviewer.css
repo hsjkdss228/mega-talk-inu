@@ -8,6 +8,45 @@ article {
     margin: 0 1em;
 }
 
+#chattings li {
+    margin-bottom: 2em;
+}
+
+#chattings li:first-child {
+    margin-top: 1em;
+}
+
 #chattings img {
-    height: 4.5em;
+    height: 3.75em;
+
+    padding-right: 0.5em;
+    border-radius: 1.375em;
+}
+
+#chattings label {
+    display: block;
+
+    margin-bottom: 0.5em;
+
+    color: #666;
+}
+
+#chattings p {
+    font-size: 1.2em;
+
+    display: inline-block;
+
+    max-width: 75%;
+
+    padding: 0.75em 1em 0.75em 0.75em;
+    border-radius: 1em;
+
+    background-color: white;
+}
+
+#chattings time {
+    display: inline-block;
+
+    padding-left: 0.25em;
+    padding-top: 0.5em;
 }
